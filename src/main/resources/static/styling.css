@@ -1,0 +1,32 @@
+html{
+    padding-left: 36%;
+    padding-right: 36%;
+    padding-top: 7%;
+    background-color: #6aa998;
+}
+
+#header{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#input{
+    width: 100%;
+}
+
+.btn-success{
+    width: 80px;
+}
+
+.btn-primary{
+    width: 100%;
+}
+
+.btn-secondary{
+    width: 80px;
+}
+
+.btn-danger{
+    width: 100%;
+}

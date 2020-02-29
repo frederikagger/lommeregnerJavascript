@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"> <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styling.css">
+    <script src="scripts.js" ></script>
+    <meta charset="UTF-8">
+    <h1 id="header"> Javascript lommeregner</h1>
+
+</head>
+<body>
+
+<div class="row">
+    <title>First javascript</title>
+    <div class="col-md-4">
+        <table class="table table-bordered-6">
+                <thead>
+                <tr>
+                    <th colspan="4">
+                        <input id="input" type="text" maxlength="10">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button type="button" class="btn btn-success" onclick="fnumbers(this.innerText)">/</button>
+                    </th>
+                    <th>
+                        <button type="button" class="btn btn-success" onclick="fnumbers(this.innerText)">x</button>
+                    </th>
+                    <th colspan="2">
+                        <button type="button" class="btn btn-danger" onclick="del()">DEL</button>
+                    </th>
+
+                </tr>
+                </thead>
+            <tbody>
+            <tr>
+                <th>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">7</button>
+                </th>
+                <td>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">8</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">9</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-success" onclick="fnumbers(this.innerText)">-</button>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">4</button>
+                </th>
+                <td>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">5</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">6</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-success" onclick="fnumbers(this.innerText)">+</button>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">1</button>
+                </th>
+                <td>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">2</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">3</button>
+                <td>
+                    <button type="button" class="btn btn-primary" onclick="result()">=</button>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <button type="button" style="width: 100%" class="btn btn-secondary" onclick="fnumbers(this.innerText)">0</button>
+                </th>
+                <th>
+                    <button type="button" class="btn btn-secondary" onclick="fnumbers(this.innerText)">.</button>
+                </th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
